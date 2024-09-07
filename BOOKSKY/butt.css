@@ -1,0 +1,78 @@
+#ono{
+    background-color: tomato;
+    padding:0.5px 0;}
+* {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    position:relative;
+  
+  }
+ 
+  #pot{
+    background-color:tomato;
+    position:absolute;
+    width:250px;
+    height:fit-content;
+    padding-bottom: 50px;
+    top:250px;
+    left: 25%;
+    border-radius:30px;
+    padding-left:30px;
+    display:none;
+  
+  }
+  #pot input::placeholder{
+    color:black;
+    text-align:center;
+    font-size: medium;
+  }
+  #five2{
+    color:tomato;font-size:larger;padding-bottom:0;
+    display: inline-block;
+  }
+  #con{
+    margin:20px;
+  
+    background-color: black;
+    width:350px;
+    height:350px;
+    border-radius: 5%;
+    display:inline-block;
+    vertical-align: top;
+
+  }
+  #con{
+    padding-left: 15px;
+    color:azure
+  }
+  #con button{
+    background-color:tomato;
+    border-radius: 5px;
+    padding:5px;
+    padding-bottom: 0%;
+  }
+  #sec button{
+    position:fixed;
+    bottom:50px;
+    right:50px;
+    padding:20px;
+    border-radius:50%;
+    font-weight: 400;
+    font-size: large;
+    background-color:tomato
+  }
+  #chn{
+     border:none;
+     border-bottom:solid black 2px;
+     background-color:transparent;
+     width:90%;
+ padding-top: 30px;
+ 
+  }
+  #bt,#c{
+    color:white;
+    background-color:black;
+    padding:5px;
+    border-radius: 5px;
+  }
