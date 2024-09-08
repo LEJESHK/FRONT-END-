@@ -1,0 +1,29 @@
+body{
+    font-family: "Poppins", system-ui;
+}
+nav h2{
+    text-align: center;
+}
+main h2{
+    color:azure;
+    background-color: black;
+    width:fit-content;
+    padding:5px;
+}
+#btn{
+    padding:5px 10px;
+    font-family: "Poppins",system-ui;
+    
+}
+main div{
+    position:absolute;
+    top:45%;
+    left:40%;
+    text-align: center;
+   
+}
+#btn
+{
+background-color: transparent;
+font-style: inherit;
+}
