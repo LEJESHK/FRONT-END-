@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+}.container{
+
+height:70vh;
+    background-image: url("image.png");
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+}
+header{
+   display:flex;
+   flex-direction:row;
+}
+.maintext{
+    color:white;
+}
+.new,.new1{
+    color:rgb(244, 244, 14);
+    text-decoration: none;
+    padding:20px;
+    font-size:1.2em;
+    
+}
+.new1{
+    flex:3;
+    
+    
+}
+.new{
+    
+    flex:1;
+}
+header a:hover{
+    color:greenyellow;
+}
+.maintext{
+    display:flex;
+    height:25vh;
+    flex-direction: column;
+    justify-content:center;
+    padding:2em;
+
+}
+.tagline1{
+    color:rgb(248, 5, 5);
+    font-size:2.5rem;
+    font-family: monospace;
+    font-weight: bolder;
+    margin-bottom: 1em;
+}
+.tagline2{
+    color:yellow;
+    font-family: monospace;
+    margin-bottom:2em;
+    font-size:medium;
+}
+.callus{
+    font-family:monospace;
+    margin-bottom:2em}
+.btn{
+    background-color:rgb(7, 198, 134);
+    color:rgb(248, 249, 250);
+    padding:5px;
+    
+    border-radius:5px;
+}
+.menu{display:flex;
+    flex-direction:row;
+    flex:repeat(auto-fit,minmax(320fr,1fr));
+    
+    
+    background: linear-gradient(to right,rgb(136, 146, 143),rgb(49, 52, 56));
+    color:aliceblue;
+    
+}
+.menuhead,.l{
+    background: linear-gradient(to right,rgb(136, 146, 143),rgb(49, 52, 56));
+    
+    color:red;
+    text-align: center;
+    
+    font-family:monospace;
+    margin-bottom: 0%;
+   
+}
+.l{
+    font-weight: bolder;
+    font-size: 20px;
+    padding-bottom:10px;
+}
+.location{
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    padding-left:100px;
+
+}
+.loc{
+    width:33%;
+    text-align: center;
+}
+.starters,.main,.chats{
+    padding: 20px;
+    width:100%;
+    display: flex;
+    justify-content: center;
+}
+table th{
+    color:rgb(7, 198, 134);
+    font-size:20px;
+    padding:10px;
+}
+.loc{
+    color:aliceblue;
+    
+}
+.loc h2{
+    color:rgb(7, 198, 134);
+    font-size:20px; 
+}
+
+.menu tr{
+    display:flex;
+    justify-content:center;
+
+}
+.menu td{
+    padding:5px;
+}
+.menu tr td:nth-child(1)
+{
+    display:flex;
+    flex:4fr 1;
+    justify-content: left;
+}
+.menu tr td:nth-child(2)
+{
+    display:flex;
+    flex:1 1;
+    justify-content: right;
+}
+.location{
+    background:linear-gradient(to right,rgb(136, 146, 143),rgb(49, 52, 56));
+    padding-bottom:50px;
+}
