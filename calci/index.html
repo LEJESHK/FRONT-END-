@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="index.css">
+  
+</head>
+<body>
+    <h1 style="margin-bottom:0;"><span style="color:rgb(68, 202, 41)">Calculator</span> <span style="color:rgb(41, 168, 175)"> For </span><span style="color:rgb(220, 112, 130)">Keerthi</span></h1>
+    <div class="calcultor">
+        <div class="display">
+            <input type="text" id="inp" value="0">
+        </div>
+        <div class="row">
+            <button type="button" class="op" id="p" onclick="ac()">AC</button>
+            <button type="button" class="op" id="p" onclick="del()">DEL</button>
+            <button type="button" class="op" id="p" onclick="fun(event)">%</button>
+            <button type="button" class="op" id="p" onclick="fun(event)">/</button>
+        </div>
+         <div class="row">
+            <button type="button" class="op" id="nop" onclick="fun(event)">7</button>
+            <button type="button" class="op" onclick="fun(event)">8</button>
+            <button type="button" class="op" onclick="fun(event)">9</button>
+            <button type="button" class="op" id="p" onclick="fun(event)">*</button>
+        </div>
+        <div class="row">
+            <button type="button" class="op" onclick="fun(event)">4</button>
+            <button type="button" class="op" onclick="fun(event)">5</button>
+            <button type="button" class="op" onclick="fun(event)">6</button>
+            <button type="button" class="op" id="p" onclick="fun(event)">+</button>
+        </div>
+        <div class="row">
+            <button type="button" class="op" onclick="fun(event)">3</button>
+            <button type="button" class="op" onclick="fun(event)">2</button>
+            <button type="button" class="op" onclick="fun(event)">1</button>
+            <button type="button" class="op" id="p" onclick="fun(event)">-</button>
+        </div>
+        <div class="row">
+            <button type="button" class="op" onclick="pm()">&plusmn;</button>
+            <button type="button" class="op" onclick="fun(event)">0</button>
+            <button type="button" class="op" onclick="fun(event)">.</button>
+            <button type="button" class="op"  id="equ" onclick="funt()">=</button>
+        </div>
+    </div>
+    <script src="index.js" ></script>
+</body>
+</html>

@@ -1,0 +1,80 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+}
+body{
+    height:100vh;
+    display:grid;
+    place-items: center;
+    background: linear-gradient(45deg,#0a0a0a,#3a4452);
+    
+}
+.calcultor{
+
+padding:15px;
+width: fit-content;
+box-shadow:0 0 #010c31;
+border:2px solid rgb(116,114,114);
+border-radius: 15px;
+margin-top:-30px;;
+}
+#inp{
+    width:338px;
+    padding:10px;
+    text-align: right;
+    background: transparent;
+    background-color: rgba(240, 248, 255, 0.011);
+    color:whitesmoke;
+    font-size: 40px;
+    cursor: pointer;
+    outline: none;
+    margin-bottom:10px;
+    border-radius:10px;
+
+}
+
+.op{
+    font-weight: bolder;
+    text-align: center;
+    font-size: 20px;
+    width:70px;
+    height:70px;
+    background: transparent;
+    color: white;
+    border-radius: 50%;
+    margin:5px;
+
+    
+   
+    outline: 1px solid #313131;
+    outline-offset: 3px;
+    
+
+    box-shadow: -5px -6px 15px #000;
+    border:none;
+
+
+cursor: pointer;
+}
+.op:hover{
+    color:orange;
+}
+#p{
+    font-size: larger;
+    color: rgb(40, 57, 51);
+    background-color: cadetblue;
+}
+#p:hover{
+    color:white;
+}
+#equ{
+    font-size: larger;
+    color: black ;
+    background-color:rgb(224, 108, 13);
+}
+#equ:hover{
+    color:white;
+}
